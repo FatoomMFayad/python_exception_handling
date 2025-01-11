@@ -7,6 +7,7 @@ try:
 except ValueError as e:
     print(f"You should input a number: {e}")
 except ZeroDivisionError as e:
+    y = 1
     print(f"You cannot divide by zero: {e}")
 except Exception as e:
     print(f"Something went wrong: {e}")
